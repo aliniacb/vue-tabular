@@ -1,6 +1,6 @@
 {
     "name": "@vue-badger/vue-tabular",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "vue plugin to represent csv data as html tables",
     "main": "dist/@vue-badger/vue-tabular.common.js",
     "module": "dist/@vue-badger/vue-tabular.umd.js",
@@ -8,7 +8,8 @@
         "serve": "vue-cli-service serve --open",
         "build": "vue-cli-service build --target lib src/main.js",
         "test:unit": "vue-cli-service test:unit",
-        "lint": "vue-cli-service lint"
+        "lint": "vue-cli-service lint",
+        "publishit": "vue-cli-service build --target lib src/main.js && npm publish"
     },
     "keywords": [
         "vue",
@@ -26,7 +27,6 @@
    },
    "license": "ISC",
    "dependencies": {
-        "vue": "^2.6.7"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.4.1",
