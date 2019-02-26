@@ -1,6 +1,6 @@
 {
     "name": "@vue-badger/vue-tabular",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "vue plugin to represent csv data as html tables",
     "main": "dist/@vue-badger/vue-tabular.common.js",
     "module": "dist/@vue-badger/vue-tabular.umd.js",
@@ -20,8 +20,12 @@
        "name": "Alin Iacob",
        "email": "aliniacb@gmail.com"
    },
-    "license": "ISC",
-    "dependencies": {
+   "repository": {
+       "type": "git",
+       "url": "git@github.com:aliniacb/vue-tabular-html.git"
+   },
+   "license": "ISC",
+   "dependencies": {
         "vue": "^2.6.7"
     },
     "devDependencies": {
